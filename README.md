@@ -4,7 +4,7 @@
 
 ### **Project Introduction:**
 
-<div style="text-align: justify"> In this project, you will apply the skills you have gained in this course to create a convolutional neural network to detect and classify objects using data from Waymo. You will be provided with a dataset of images of urban environments containing annotated cyclists, pedestrians and vehicles. First, you will perform an extensive data analysis including the computation of label distributions, display of sample images, and checking for object occlusions. </div>
+In this project, you will apply the skills you have gained in this course to create a convolutional neural network to detect and classify objects using data from Waymo. You will be provided with a dataset of images of urban environments containing annotated cyclists, pedestrians and vehicles. First, you will perform an extensive data analysis including the computation of label distributions, display of sample images, and checking for object occlusions.
 
 <p>&nbsp;</p>
 
@@ -29,14 +29,10 @@ If you are using the classroom environment, you can skip to the next page - the 
 ### **Project Files:**
 
 First, obtain the project files from the related [Github repository](https://github.com/udacity/nd013-c1-vision-starter).
-
 If you are unfamiliar with GitHub, Udacity has a brief [GitHub tutorial](https://www.udacity.com/blog/2015/06/a-beginners-git-github-tutorial.html) to get you started. Udacity also provides a more detailed [free course on git and GitHub](https://www.udacity.com/course/version-control-with-git--ud123). To learn about README files and Markdown, Udacity provides a free course on READMEs as well.
 
 ### **Docker Setup:**
-
-For local setup if you have your own Nvidia GPU, you can use the provided Dockerfile and requirements in the build directory of the starter code.
-
-The instructions below are also contained within the build directory of the starter code.
+For local setup if you have your own Nvidia GPU, you can use the provided Dockerfile and requirements in the build directory of the starter code. The instructions below are also contained within the build directory of the starter code.
 
 ### **Requirements:**
 
@@ -51,3 +47,5 @@ Build the image with:
 
 
 
+<div style="text-align: justify">
+</div>
