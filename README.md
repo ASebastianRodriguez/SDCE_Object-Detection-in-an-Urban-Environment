@@ -28,9 +28,9 @@ If you are using the classroom environment, you can skip to the next page - the 
 
 ### **Project Files:**
 
-First, obtain the project files from the related Github repository.
+First, obtain the project files from the related [Github repository](https://github.com/udacity/nd013-c1-vision-starter).
 
-If you are unfamiliar with GitHub, Udacity has a brief GitHub tutorial to get you started. Udacity also provides a more detailed free course on git and GitHub. To learn about README files and Markdown, Udacity provides a free course on READMEs as well.
+If you are unfamiliar with GitHub, Udacity has a brief [GitHub tutorial](https://www.udacity.com/blog/2015/06/a-beginners-git-github-tutorial.html) to get you started. Udacity also provides a more detailed [free course on git and GitHub](https://www.udacity.com/course/version-control-with-git--ud123). To learn about README files and Markdown, Udacity provides a free course on READMEs as well.
 
 ### **Docker Setup:**
 
