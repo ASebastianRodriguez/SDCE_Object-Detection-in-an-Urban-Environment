@@ -46,27 +46,24 @@ For local setup if you have your own Nvidia GPU, you can use the provided Docker
 <p>&nbsp;</p>
 
 ### **Build:**
-Build the image with:
+Build the image with: <br />
+
 `docker build -t project-dev -f Dockerfile .`
 
 <p>&nbsp;</p>
 
-Create a container with:
-`docker run --gpus all -v <PATH TO LOCAL PROJECT FOLDER>:/app/project/ --network=host -ti project-dev bash`
-
-<p>&nbsp;</p>
-
-and any other flag you find useful to your system (eg, `--shm-size`).
+Create a container with:<br />
+`docker run --gpus all -v <PATH TO LOCAL PROJECT FOLDER>:/app/project/ --network=host -ti project-dev bash` and any other flag you find useful to your system (eg, `--shm-size`).
 
 <p>&nbsp;</p>
 
 ### **Set up:**
-Once in container, you will need to install gsutil, which you can easily do by running:
+Once in container, you will need to install gsutil, which you can easily do by running:<br />
 `curl https://sdk.cloud.google.com | bash`
 
 <p>&nbsp;</p>
 
-Once gsutil is installed and added to your path, you can auth using:
+Once gsutil is installed and added to your path, you can auth using:<br />
 `gcloud auth login`
 
 ### **Debug:**
