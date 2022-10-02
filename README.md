@@ -18,7 +18,34 @@ An example night image from the Waymo dataset, with annotations for vehicles and
 
 <p>&nbsp;</p>
 
+### **Setting Up the Project:**
+There are two options for the project: using the classroom workspace, with the necessary libraries and data already available for you, or local setup. If you want to use a local setup, you can use the below instructions for a Docker container if using your own local GPU, or otherwise creating a similar environment on a cloud provider's GPU instance.
 
+### **GPU Workspace Note:**
+While you can shut off your GPU while writing code, note that anytime you need to run code in the workspace, you will want to have the GPU activated, as only then will all related Python libraries be available (such as TensorFlow). If a library appears to not be available, that is the first thing to check. However, it's important to note that while most files auto-save within a few seconds of you completing edits in the workspace, you must manually save Jupyter notebooks before switching on or off the GPU, or else you may lose that work.
+
+If you are using the classroom environment, you can skip to the next page - the rest of the instructions here are for local work.
+
+### **Project Files:**
+
+First, obtain the project files from the related Github repository.
+
+If you are unfamiliar with GitHub, Udacity has a brief GitHub tutorial to get you started. Udacity also provides a more detailed free course on git and GitHub. To learn about README files and Markdown, Udacity provides a free course on READMEs as well.
+
+### **Docker Setup:**
+
+For local setup if you have your own Nvidia GPU, you can use the provided Dockerfile and requirements in the build directory of the starter code.
+
+The instructions below are also contained within the build directory of the starter code.
+
+### **Requirements:**
+
+    NVIDIA GPU with the latest driver installed
+    docker / nvidia-docker
+
+### **Build:**
+
+Build the image with:
 
 
 
