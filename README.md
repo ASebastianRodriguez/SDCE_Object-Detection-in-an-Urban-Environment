@@ -65,6 +65,8 @@ Once gsutil is installed and added to your path, you can auth using:<br />
 ### **Debug:**
 Follow this [tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tensorflow-object-detection-api-installation) if you run into any issue with the installation of the TF Object Detection API.
 
+<p>&nbsp;</p>
+
 ## *2) Steps to Implement the Project:*
 
 ### <ins>Data:</ins>
