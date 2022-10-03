@@ -1,8 +1,8 @@
 # *Udacity Self Driving Car Engineer Course*
 
-### [Go To Results Directly!!!](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/RESULTS.md)
-
 ## **Project Nº 1: Object Detection in an Urban Environment**
+
+### [Go To Results Directly!!!](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/RESULTS.md)
 
 ## **1) Project Introduction:**
 
@@ -250,7 +250,7 @@ This section should highlight the different strategies you adopted to improve yo
 
 ## *3) Results:*
 
-## [Please click here to go to results](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/RESULTS.md)
+### [Please click here to go to results](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/RESULTS.md)
 
 <div style="text-align: justify">
 </div>
