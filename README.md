@@ -73,6 +73,8 @@ Follow this [tutorial](https://tensorflow-object-detection-api-tutorial.readthed
 For this project, we will be using data from the [Waymo Open dataset](https://waymo.com/open/).
 [OPTIONAL] - The files can be downloaded directly from the website as tar files or from the [Google Cloud Bucket](https://console.cloud.google.com/storage/browser/waymo_open_dataset_v_1_2_0_individual_files/) as individual tf records. We have already provided the data required to finish this project in the workspace, so you don't need to download it separately.
 
+<p>&nbsp;</p>
+
 ### <ins>2.2) Structure:</ins>
 #### *2.2.1) Data:*
 The data you will use for training, validation and testing is organized as follow:
@@ -85,6 +87,8 @@ The data you will use for training, validation and testing is organized as follo
 ```
 The `training_and_validation` folder contains file that have been downsampled: we have selected one every 10 frames from 10 fps videos. The `testing` folder contains frames from the 10 fps video without downsampling.
 You will split this `training_and_validation` data into `train`, and `val` sets by completing and executing the `create_splits.py` file.
+
+<p>&nbsp;</p>
 
 #### *2.2.2) Experiments:*
 The experiments folder will be organized as follow:
@@ -100,11 +104,16 @@ experiments/
     - label_map.pbtxt
     ...
 ```
+
+<p>&nbsp;</p>
+
 ### <ins>2.3) Prerequisites:</ins>
 #### *2.3.1) Local Setup:*
 For local setup if you have your own Nvidia GPU, you can use the provided Dockerfile and requirements in the [build directory](./build).
 
 Follow [the README therein](./build/README.md) to create a docker container and install all prerequisites.
+
+<p>&nbsp;</p>
 
 #### *2.3.2) Download and process the data:*
 **Note:** ”If you are using the classroom workspace, we have already completed the steps in the section for you. You can find the downloaded and processed files within the `/home/workspace/data/preprocessed_data/` directory. Check this out then proceed to the **Exploratory Data Analysis** part.
@@ -118,13 +127,19 @@ python download_process.py --data_dir {processed_file_location} --size {number o
 
 You are downloading 100 files (unless you changed the `size` parameter) so be patient! Once the script is done, you can look inside your `data_dir` folder to see if the files have been downloaded and processed correctly.
 
+<p>&nbsp;</p>
+
 #### *2.3.3) Classroom Workspace:*
 In the classroom workspace, every library and package should already be installed in your environment. You will NOT need to make use of `gcloud` to download the images.
+
+<p>&nbsp;</p>
 
 ### <ins>2.4) Instructions:</ins>
 #### *2.4.1) Exploratory Data Analysis:*
 You should use the data already present in `/home/workspace/data/waymo` directory to explore the dataset! This is the most important task of any machine learning project. To do so, open the `Exploratory Data Analysis` notebook. In this notebook, your first task will be to implement a `display_instances` function to display images and annotations using `matplotlib`. This should be very similar to the function you created during the course. Once you are done, feel free to spend more time exploring the data and report your findings. Report anything relevant about the dataset in the writeup.
 Keep in mind that you should refer to this analysis to create the different spits (training, testing and validation).
+
+<p>&nbsp;</p>
 
 #### *2.4.2) Create the training - validation splits:*
 In the class, we talked about cross-validation and the importance of creating meaningful training and validation splits. For this project, you will have to create your own training and validation sets using the files located in `/home/workspace/data/waymo`. The `split` function in the `create_splits.py` file does the following:
@@ -136,6 +151,8 @@ Use the following command to run the script once your function is implemented:
 python create_splits.py --data-dir /home/workspace/data
 ```
 
+<p>&nbsp;</p>
+
 #### *2.4.3) Edit the config file:*
 Now you are ready for training. As we explain during the course, the Tf Object Detection API relies on **config files**. The config that we will use for this project is `pipeline.config`, which is the config for a SSD Resnet 50 640x640 model. You can learn more about the Single Shot Detector [here](https://arxiv.org/pdf/1512.02325.pdf).
 
@@ -146,6 +163,8 @@ We need to edit the config files to change the location of the training and vali
 python edit_config.py --train_dir /home/workspace/data/train/ --eval_dir /home/workspace/data/val/ --batch_size 2 --checkpoint /home/workspace/experiments/pretrained_model/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/checkpoint/ckpt-0 --label_map /home/workspace/experiments/label_map.pbtxt
 ```
 A new config file has been created, `pipeline_new.config`.
+
+<p>&nbsp;</p>
 
 #### *2.4.4) Training:*
 You will now launch your very first experiment with the Tensorflow object detection API. Move the `pipeline_new.config` to the `/home/workspace/experiments/reference` folder. Now launch the training process:
@@ -164,6 +183,8 @@ python experiments/model_main_tf2.py --model_dir=experiments/reference/ --pipeli
 
 To monitor the training, you can launch a tensorboard instance by running `python -m tensorboard.main --logdir experiments/reference/`. You will report your findings in the writeup.
 
+<p>&nbsp;</p>
+
 #### *2.4.5) Improve the performances:*
 Most likely, this initial experiment did not yield optimal results. However, you can make multiple changes to the config file to improve this model. One obvious change consists in improving the data augmentation strategy. The [`preprocessor.proto`](https://github.com/tensorflow/models/blob/master/research/object_detection/protos/preprocessor.proto) file contains the different data augmentation method available in the Tf Object Detection API. To help you visualize these augmentations, we are providing a notebook: `Explore augmentations.ipynb`. Using this notebook, try different data augmentation combinations and select the one you think is optimal for our dataset. Justify your choices in the writeup.
 
@@ -172,6 +193,8 @@ Keep in mind that the following are also available:
 - experiment with the architecture. The Tf Object Detection API [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) offers many architectures. Keep in mind that the `pipeline.config` file is unique for each architecture and you will have to edit it.
 
 **Important:** If you are working on the workspace, your storage is limited. You may to delete the checkpoints files after each experiment. You should however keep the `tf.events` files located in the `train` and `eval` folder of your experiments. You can also keep the `saved_model` folder to create your videos.
+
+<p>&nbsp;</p>
 
 ### <ins>2.5) Creating an animation:</ins>
 #### *2.5.1) Export the trained model:*
@@ -188,23 +211,35 @@ Finally, you can create a video of your model's inferences for any tf record fil
 python inference_video.py --labelmap_path label_map.pbtxt --model_path experiments/reference/exported/saved_model --tf_record_path /data/waymo/testing/segment-12200383401366682847_2552_140_2572_140_with_camera_labels.tfrecord --config_path experiments/reference/pipeline_new.config --output_path animation.gif
 ```
 
+<p>&nbsp;</p>
+
 ### <ins>2.6) Submission Template:</ins>
 #### *2.6.1) Project overview:*
 This section should contain a brief description of the project and what we are trying to achieve. Why is object detection such an important component of self driving car systems?
 
+<p>&nbsp;</p>
+
 #### *2.6.2) Set up:*
 This section should contain a brief description of the steps to follow to run the code for this repository.
+
+<p>&nbsp;</p>
 
 #### *2.6.3) Dataset:*
 #### 2.6.3.1) Dataset analysis:
 This section should contain a quantitative and qualitative description of the dataset. It should include images, charts and other visualizations.
 
+<p>&nbsp;</p>
+
 #### 2.6.3.2) Cross validation:
 This section should detail the cross validation strategy and justify your approach.
+
+<p>&nbsp;</p>
 
 #### *2.6.4) Training:*
 #### 2.6.4.1) Reference experiment:
 This section should detail the results of the reference experiment. It should includes training metrics and a detailed explanation of the algorithm's performances.
+
+<p>&nbsp;</p>
 
 #### 2.6.4.2) Improve on the reference:
 This section should highlight the different strategies you adopted to improve your model. It should contain relevant figures and details of your findings.
