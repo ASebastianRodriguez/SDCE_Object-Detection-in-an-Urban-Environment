@@ -61,10 +61,10 @@ Create a container with:<br />
 Once in container, you will need to install gsutil, which you can easily do by running:<br />
 `curl https://sdk.cloud.google.com | bash`
 
-<p>&nbsp;</p>
-
 Once gsutil is installed and added to your path, you can auth using:<br />
 `gcloud auth login`
+
+<p>&nbsp;</p>
 
 ### **Debug:**
 Follow this [tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tensorflow-object-detection-api-installation) if you run into any issue with the installation of the TF Object Detection API.
