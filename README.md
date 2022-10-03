@@ -1,5 +1,7 @@
 # *Udacity Self Driving Car Engineer Course*
 
+## [Go To Results Directly](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/RESULTS.md)
+
 ## **Project Nº 1: Object Detection in an Urban Environment**
 
 ## **1) Project Introduction:**
@@ -244,7 +246,11 @@ This section should detail the results of the reference experiment. It should in
 #### 2.6.4.2) Improve on the reference:
 This section should highlight the different strategies you adopted to improve your model. It should contain relevant figures and details of your findings.
 
+<p>&nbsp;</p>
 
+## *Results:*
+
+### [Please click here to go to results](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/RESULTS.md)
 
 <div style="text-align: justify">
 </div>
