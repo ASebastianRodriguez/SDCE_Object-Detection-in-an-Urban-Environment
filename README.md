@@ -47,11 +47,7 @@ For local setup if you have your own Nvidia GPU, you can use the provided Docker
 
 ### **Build:**
 Build the image with: <br />
-
-`docker build -t project-dev -f Dockerfile .`
-
-<p>&nbsp;</p>
-
+`docker build -t project-dev -f Dockerfile .`<br />
 Create a container with:<br />
 `docker run --gpus all -v <PATH TO LOCAL PROJECT FOLDER>:/app/project/ --network=host -ti project-dev bash` and any other flag you find useful to your system (eg, `--shm-size`).
 
