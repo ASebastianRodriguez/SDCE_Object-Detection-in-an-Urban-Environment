@@ -1,6 +1,6 @@
 # *Results of the project #1: Object Detection in an Urban Environmets*
 
-## *1) Random images in that the trained algorithm detect "cars", "pedestrian" and "cycles":*
+## *1) Random images in that the trained algorithm detect "cars (red)", "pedestrian (blue)" and "cycles (green)":*
 
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/1.png "Ten pictures with bounding boxes")
 
