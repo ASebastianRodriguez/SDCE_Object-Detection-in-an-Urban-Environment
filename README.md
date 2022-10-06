@@ -248,9 +248,13 @@ This section should highlight the different strategies you adopted to improve yo
 
 <p>&nbsp;</p>
 
-## *3) Results:*
+## *3) Used Links:*
+### In the [USED_LINKS.md](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/USED_LINKS.md) file you can find the different sites from which I have obtained information to complete my project.
+
+<p>&nbsp;</p>
+
+## *4) Results:*
 
 ### [Please click here to go to results](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/RESULTS.md)
 
-<div style="text-align: justify">
-</div>
+<p>&nbsp;</p>
