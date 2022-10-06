@@ -25,7 +25,7 @@ There are two options for the project: using the classroom workspace, with the n
 
 <p>&nbsp;</p>
 
-### **1.2) GPU Workspace Note:**
+### **1.2) GPU Workspace Note:** 
 While you can shut off your GPU while writing code, note that anytime you need to run code in the workspace, you will want to have the GPU activated, as only then will all related Python libraries be available (such as TensorFlow). If a library appears to not be available, that is the first thing to check. However, it's important to note that while most files auto-save within a few seconds of you completing edits in the workspace, you must manually save Jupyter notebooks before switching on or off the GPU, or else you may lose that work. If you are using the classroom environment, you can skip to the next page - the rest of the instructions here are for local work.
 
 <p>&nbsp;</p>
