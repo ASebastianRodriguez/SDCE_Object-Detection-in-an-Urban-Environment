@@ -73,7 +73,13 @@ data_augmentation_options {
   }
 ```
 
-### *4.2) Execution of augmentation process:*
+<p>&nbsp;</p>
+
+### *4.2) Train inputs image examples:*
+
+![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Images.JPG "Train images examples")
+
+### *4.3) Execution of augmentation process:*
 
 <p>&nbsp;</p>
 
