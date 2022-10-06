@@ -18,3 +18,7 @@ The graphics shows the quantity of different classes detected in the dataset.
 
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/bar.png "Bar graphic indicating quantity of detectios per class")
 
+<p>&nbsp;</p>
+
+## *3) First training without augmentation:*
+The curves shows the lear
