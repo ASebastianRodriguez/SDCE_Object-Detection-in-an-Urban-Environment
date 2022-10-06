@@ -77,11 +77,9 @@ data_augmentation_options {
 
 <p>&nbsp;</p>
 
-First terminal: augmentation execution.<br />
-Second terminal: execution of chromium-browser.<br />
-Third terminal: execution of TensorBoard server.<br />
-
-<p>&nbsp;</p>
+- First terminal: augmentation execution.<br />
+- Second terminal: execution of chromium-browser.<br />
+- Third terminal: execution of TensorBoard server.<br />
 
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Web%20Browser-Eval-TensorBoard.JPG "Terminals with augmentation process")
 
