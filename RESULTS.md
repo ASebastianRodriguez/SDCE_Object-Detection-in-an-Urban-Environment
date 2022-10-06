@@ -81,8 +81,6 @@ data_augmentation_options {
 
 ### *4.3) Execution of augmentation process:*
 
-<p>&nbsp;</p>
-
 - *First terminal:* augmentation execution.<br />
 - *Second terminal:* execution of chromium-browser.<br />
 - *Third terminal:* execution of TensorBoard server.<br />
