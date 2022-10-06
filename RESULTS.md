@@ -30,7 +30,7 @@ The curves shows the different courves included in TensorBoard without augmentat
 ## *4) Second training with augmentation:*
 
 ### *4.1) Augmentation added to pipeline config file (pipeline_new.config):*
-I included five (5) augmentation blocks with: conversion from rgb to gray scale, brightness adjusting (2 instances), contrast adjusting and color distortion.
+Inclusion of five (5) augmentation blocks with: conversion from rgb to gray scale, brightness adjusting (2 instances), contrast adjusting and color distortion.
 
 <p>&nbsp;</p>
 
