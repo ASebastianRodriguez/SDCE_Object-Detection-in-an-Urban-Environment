@@ -5,7 +5,7 @@
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/1.png "Ten pictures with bounding boxes")
 
 
-## *2) Bar graphic indicating Qty=f(classes):*
+## *2) Histogram indicating Qty=f(classes):*
 
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/bar.png "Bar graphic indicating quantity of detectios per class")
 
