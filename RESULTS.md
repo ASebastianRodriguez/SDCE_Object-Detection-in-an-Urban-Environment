@@ -25,3 +25,50 @@ The curves shows the different courves included in TensorBoard without augmentat
 
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Scalars.jpg "Courves without augmentation")
 
+<p>&nbsp;</p>
+
+## *4) Second training with augmentation:*
+
+### *4.1) Augmentation added to pipeline config file (pipeline_new.config):*
+I included five (5) augmentation blocks with: conversion from rgb to gray scale, brightness adjusting (2 instances), contrast adjusting and color distortion.
+
+<p>&nbsp;</p>
+
+```
+data_augmentation_options {
+    random_crop_image {
+      min_object_covered: 0.0
+      min_aspect_ratio: 0.75
+      max_aspect_ratio: 3.0
+      min_area: 0.75
+      max_area: 1.0
+      overlap_thresh: 0.0
+    }
+  }
+  data_augmentation_options {
+    random_rgb_to_gray {
+    probability: 0.2
+    }
+  }
+  data_augmentation_options {
+    random_adjust_brightness {
+    max_delta: 0.2
+    }
+  }
+  data_augmentation_options {
+    random_adjust_contrast {
+    min_delta: 0.7
+    max_delta: 1.3
+    }
+  }
+  data_augmentation_options {
+    random_adjust_brightness {
+    max_delta: 0.2
+    }
+  }
+  data_augmentation_options {
+    random_distort_color {
+    color_ordering: 1
+    }
+  }
+```
