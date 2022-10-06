@@ -72,3 +72,7 @@ data_augmentation_options {
     }
   }
 ```
+
+### *4.2) Execution of augmentation process:*
+
+![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Web%20Browser-Eval-TensorBoard.JPG "Terminals with augmentation process")
