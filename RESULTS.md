@@ -21,7 +21,7 @@ The graphics shows the quantity of different classes detected in the dataset.
 <p>&nbsp;</p>
 
 ## *3) First training without augmentation:*
-The curves shows the learning courves without augmentation.
+The curves shows the different courves included in TensorBoard without augmentation.
 
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Scalars.jpg "Courves without augmentation")
 
