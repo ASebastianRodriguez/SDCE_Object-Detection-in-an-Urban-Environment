@@ -90,3 +90,9 @@ data_augmentation_options {
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Web%20Browser-Eval-TensorBoard.JPG "Terminals with augmentation process")
 
 <p>&nbsp;</p>
+
+### *4.4) Evaluation process losses:*
+
+![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Eval_loss.JPG "Evalutation Losses")
+
+<p>&nbsp;</p>
