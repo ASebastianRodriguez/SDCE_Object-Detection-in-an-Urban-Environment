@@ -34,3 +34,25 @@ It is also nice to have a validation curve along with the training curve so it i
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/3.No_Augmentation.PNG)
 
 
+## *Model Improvements:*
+A new version of the config file is created and contains modifications to improve the model performances. A new config file is created with meaningful modifications.
+
+<p>&nbsp;</p>
+
+The write up details why these modifications were made. New augmentations are visualized and displayed in the writeup.
+
+<p>&nbsp;</p>
+
+Great job! You have documented the following new augmentations
+- Adding random brightness
+- Adding random contrast
+- Adding rgb to gray conversion.
+
+<p>&nbsp;</p>
+
+Thank you for adding further datils on your augmentation modifications.
+
+<p>&nbsp;</p>
+
+Suggestion: You should have also increased the batch size in relation to the default config. This way your loss reaches a plateau, contrary to your first experiment where you never reached it.
+
