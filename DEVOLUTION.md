@@ -7,3 +7,4 @@ However, SSD is not the only single-stage encoder network. YOLO is another great
 
 <p>&nbsp;</p>
 
+Thus, in general, SSD is a good approach to balance between FPS and mAP performance. Whereas, YOLO focuses more on FPS performance providing a better real-time method. You can find a good introduction to YOLO in the following [blog](https://gilberttanner.com/blog/yolo-object-detection-introduction/) or you can read the actual [paper: You Only Look Once(Unified, Real-Time Object Detection)](https://arxiv.org/pdf/1506.02640.pdf) that introduced the idea for the first time.
