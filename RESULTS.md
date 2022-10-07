@@ -96,3 +96,7 @@ data_augmentation_options {
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Eval_loss.JPG "Evaluation Losses")
 
 <p>&nbsp;</p>
+
+## *5) Animation GIF:*
+
+![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Animation.png "Capture of animation GIF")
