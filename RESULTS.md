@@ -113,6 +113,8 @@ In the first figure we can see that the value of Evaluation Set Total Loss has a
 *Conclusion about comparison:*
 We can see that the Total Loss value, by adding a greater number of modified images using "augmentation" algorithms, decreases approximately 1.5 points. This is very important because adding images with modifications such as: changes in brightness, conversion of color to gray scale and others, a better training of the neural network is generated, resulting in an increase in its efficiency. when detecting "vehicles", "pedestrians" and "cycles". 
 
+<p>&nbsp;</p>
+
 ## *5) Animation GIF:*
 
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Animation.png "Capture of animation GIF")
