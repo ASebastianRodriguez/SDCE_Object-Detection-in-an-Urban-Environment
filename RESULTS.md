@@ -97,19 +97,21 @@ data_augmentation_options {
 
 <p>&nbsp;</p>
 
-### *4.5) Comparison between Training Loss (without augmentatiotn) and Evaluation Loss (with augmentation):*
-
-In the first figure we can see that the value of Training Set Total Loss has an approximately value of 41.5 at 2.5k:
+### *4.5) Comparison between Training Loss (without augmentation) and Evaluation Loss (with augmentation):*
+In the first figure we can see that the value of Training Set Total Loss has an approximate value of 41.5 at 2.5k:
 
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Train_Total%20Loss.JPG "Training Total Loss")
 
 <p>&nbsp;</p>
 
-In the first figure we can see that the value of Evaluation Set Total Loss has an approximately value of 40.0 at 2.5k:
+In the first figure we can see that the value of Evaluation Set Total Loss has an approximate value of 40.0 at 2.5k:
 
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Eval_Total_Loss.JPG "Evaluation Total Loss")
 
 <p>&nbsp;</p>
+
+*Conclusion about comparison:*
+We can see that the Total Loss value, by adding a greater number of modified images using "augmentation" algorithms, decreases approximately 1.5 points. This is very important because adding images with modifications such as: changes in brightness, conversion of color to gray scale and others, a better training of the neural network is generated, resulting in an increase in its efficiency. when detecting "vehicles", "pedestrians" and "cycles". 
 
 ## *5) Animation GIF:*
 
