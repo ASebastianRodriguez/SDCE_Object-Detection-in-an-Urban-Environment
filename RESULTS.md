@@ -76,8 +76,28 @@ data_augmentation_options {
 <p>&nbsp;</p>
 
 *Conclusion of model improvements:*
+Using data augmentation we can increase the dataset in order to improve the training of the neural network. 
 
+<p>&nbsp;</p>
 
+Below we can find some examples of augmentation application algorithms:
+
+<p>&nbsp;</p>
+
+![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/2.png "First augmentation picture with contrast modification")
+*1st augmentation picture with contrast modification.*
+
+<p>&nbsp;</p>
+
+![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/3.png "Second augmentation picture with rgb to gray conversion")
+*2nd augmentation picture with rgb to gray conversion.*
+
+<p>&nbsp;</p>
+
+![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/4.png "Third augmentation picture with brightness modification")
+*3rd augmentation picture with brightness modification.*
+
+<p>&nbsp;</p>
 
 ### *4.2) Train inputs image examples:*
 
