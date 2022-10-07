@@ -84,17 +84,17 @@ Below we can find some examples of augmentation application algorithms:
 
 <p>&nbsp;</p>
 
-![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/2.png "First augmentation picture with contrast modification")
+![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/2.png "First augmentation picture with contrast modification")<br />
 *1st augmentation picture with contrast modification.*
 
 <p>&nbsp;</p>
 
-![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/3.png "Second augmentation picture with rgb to gray conversion")
+![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/3.png "Second augmentation picture with rgb to gray conversion")<br />
 *2nd augmentation picture with rgb to gray conversion.*
 
 <p>&nbsp;</p>
 
-![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/4.png "Third augmentation picture with brightness modification")
+![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/4.png "Third augmentation picture with brightness modification")<br />
 *3rd augmentation picture with brightness modification.*
 
 <p>&nbsp;</p>
