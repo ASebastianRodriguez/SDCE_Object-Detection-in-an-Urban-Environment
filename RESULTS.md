@@ -93,6 +93,6 @@ data_augmentation_options {
 
 ### *4.4) Evaluation process losses:*
 
-![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Eval_loss.JPG "Evalutation Losses")
+![alt text](https://github.com/HomeBrain-ARG/SDCE_Object-Detection-in-an-Urban-Environment/blob/main/Graphics/Eval_loss.JPG "Evaluation Losses")
 
 <p>&nbsp;</p>
